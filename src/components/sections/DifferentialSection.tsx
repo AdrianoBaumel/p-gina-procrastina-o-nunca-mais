@@ -40,7 +40,7 @@ const DifferentialSection = () => {
           </h2>
           <p className="text-lg text-muted-foreground">
             A maioria das "soluções" fala de força de vontade, disciplina militar,
-            planners complexos ou dicas rasas. Nada disso funciona para quem vive uma vida real.
+            planners complexos ou dicas rasas. Nada disso funciona para quem vive uma vida corrida.
           </p>
         </motion.div>
 
@@ -85,7 +85,7 @@ const DifferentialSection = () => {
               <div className="w-8 h-8 bg-primary/20 rounded-lg flex items-center justify-center">
                 <Check className="w-4 h-4 text-primary" />
               </div>
-              Este método TEM:
+              Este método É:
             </h3>
             <ul className="space-y-4">
               {hasIt.map((item, index) => (
@@ -110,7 +110,7 @@ const DifferentialSection = () => {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="text-center text-lg font-medium text-foreground mt-12 max-w-2xl mx-auto"
         >
-          Criado para pessoas comuns que precisam de uma solução{" "}
+          Criado para pessoas que precisam de uma solução{" "}
           <span className="text-primary font-bold">simples, rápida e eficaz</span>.
         </motion.p>
       </div>
