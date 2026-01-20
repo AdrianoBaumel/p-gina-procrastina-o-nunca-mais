@@ -21,7 +21,7 @@ const FAQSection = () => {
       <div className="container px-4">
         <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.8 }} className="max-w-3xl mx-auto text-center mb-14">
           <span className="inline-block bg-secondary text-secondary-foreground px-4 py-2 rounded-full text-sm font-medium mb-6">❓ Dúvidas Frequentes</span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">Perguntas <span className="text-primary">respondidas</span></h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">Perguntas <span className="text-primary">frequentes</span></h2>
         </motion.div>
         <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.8, delay: 0.2 }} className="max-w-2xl mx-auto">
           <Accordion type="single" collapsible className="space-y-4">
