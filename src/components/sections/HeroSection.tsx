@@ -49,7 +49,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8"
           >
-            A solução criada para pessoas comuns, cansadas, ansiosas e cheias de recaídas —
+            A solução criada para pessoas cansadas, ansiosas e cheias de recaídas —
             exatamente quem já tentou de tudo e nada funcionou.
           </motion.p>
 
