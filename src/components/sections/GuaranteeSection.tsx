@@ -18,11 +18,10 @@ const GuaranteeSection = () => {
               </div>
               <span className="inline-block bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6 border border-primary/30">🛡️ Garantia Incondicional</span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Você tem <span className="text-primary">7 dias</span> para testar tudo</h2>
-              <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">Se não sentir alívio, clareza ou avanço real… <span className="font-bold text-foreground">eu devolvo seu dinheiro.</span></p>
+              <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">Se não sentir alívio, clareza ou avanço… <span className="font-bold text-foreground">eu devolvo seu dinheiro.</span></p>
               <div className="flex flex-col md:flex-row justify-center gap-4 text-muted-foreground">
                 <span>✓ Sem perguntas</span>
                 <span className="hidden md:block">|</span>
-                <span>✓ Sem letras miúdas</span>
                 <span className="hidden md:block">|</span>
                 <span>✓ Risco zero</span>
               </div>
