@@ -17,7 +17,7 @@ const FinalCTASection = () => {
             <Clock className="w-4 h-4" />
             <span>Oferta por tempo limitado</span>
           </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">Esta oferta pode voltar ao preço normal a qualquer momento</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">Esta oferta pode sair do ar a qualquer momento</h2>
           <p className="text-2xl font-semibold text-foreground mb-10">Por que continuar vivendo a mesma trava amanhã… <span className="text-primary">se você pode destravar sua vida hoje?</span></p>
           <CTAButton size="lg" variant="primary" onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}>Começar por R$1,99</CTAButton>
           <div className="flex flex-wrap justify-center gap-6 mt-6 text-muted-foreground text-sm">
