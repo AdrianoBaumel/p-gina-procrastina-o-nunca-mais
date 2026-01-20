@@ -72,7 +72,7 @@ const ProblemSection = () => {
         >
           <span className="text-primary font-bold">Você não está sozinho.</span>
           <br />
-          Milhares de pessoas comuns vivem exatamente essa realidade.
+          Milhares de pessoas vivem exatamente essa realidade.
         </motion.p>
       </div>
     </section>
