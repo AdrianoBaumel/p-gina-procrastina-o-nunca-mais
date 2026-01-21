@@ -48,9 +48,9 @@ const PricingSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <div className="bg-card p-8 rounded-2xl shadow-hover border-2 border-primary relative">
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                <div className="bg-gradient-hero text-primary-foreground px-4 py-1.5 rounded-full text-sm font-semibold flex items-center gap-1.5">
-                  <Star className="w-4 h-5 fill-current" />
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 whitespace-nowrap">
+                <div className="bg-gradient-hero text-primary-foreground px-6 py-1.5 rounded-full text-sm font-semibold flex items-center gap-1.5">
+                  <Star className="w-4 h-4 fill-current" />
                   TENHO ALGO MELHOR PRA VOCÊ
                 </div>
               </div>
