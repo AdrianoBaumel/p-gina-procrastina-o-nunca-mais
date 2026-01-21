@@ -72,8 +72,6 @@ const WhatYouGetSection = () => {
                     Um guia simples e direto que destrava sua mente, elimina a culpa e
                     faz você agir de forma leve e sustentável.
                   </p>
-                  <p className="text-sm text-primary font-medium mt-4"></p>
-                  </p>
                 </div>
               </div>
             </div>
